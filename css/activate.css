@@ -1,0 +1,108 @@
+.brand-logo {
+    background-size: 100%;
+    display: block;
+    width: 294px;
+    height: 221px;
+    margin: 65px auto 25px;
+    background: url(../images/activation-page-logo.png) no-repeat 50% top;
+    background-size: 294px 221px;
+}
+
+.instructions {
+    font: 26px "Proxima Nova Semi Bold", Helvetica, Arial, sans-serif;
+    color: #666;
+    text-shadow: none;
+    padding: 0 10px;
+    margin-bottom: 33px;
+    vertical-align: baseline;
+}
+
+.main-header {
+    margin-bottom: 8px;
+    font: 45px "Proxima Nova Semi Bold", Helvetica, Arial, sans-serif;
+    color: #454240;
+    text-shadow: none;
+    padding: 0 10px;
+    vertical-align: baseline;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    display: block;
+    text-align: center;
+}
+
+.text-input {
+    font: 26px "Proxima Nova Regular", Helvetica, Arial, sans-serif;
+    border-radius: 0;
+    color: #424858;
+    background: #fff;
+    width: 379px;
+    max-width: 379px;
+    height: 44px;
+    margin-right: 16px;
+    padding: 0 13px;
+}
+
+*:focus {
+    outline: none;
+}
+
+input {
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+}
+
+.go-btn {
+    width: 87px;
+    height: 44px;
+    padding: 1px 7px 2px;
+    border-radius: 2px;
+    box-shadow: none;
+    font: 23px "Proxima Nova Semi Bold", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    opacity: 1;
+    color: #fff;
+    cursor: default;
+    background: #b0b9bd;
+    background-image: -webkit-linear-gradient(top, #b0b9bd 0%, #b0b9bd 100%);
+    line-height: 44px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.error-text {
+    display: none;
+    color: #ed1c24;
+    font: 15px "Proxima Nova Semi Bold", Helvetica, Arial, sans-serif;
+    vertical-align: baseline;
+}
+
+.modal {
+    display: none;
+}
+
+.highlighted {
+    color: #2077b6;
+    font-style: normal;
+}
+
+.prefixHeader {
+    color: #454240;
+    font-family: "Proxima Nova Semi Bold", Helvetica, Arial, sans-serif;
+}
+
+.regularHeading {
+    font-size: 26px;
+}
